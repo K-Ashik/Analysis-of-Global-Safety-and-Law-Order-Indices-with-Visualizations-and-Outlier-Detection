@@ -4,7 +4,7 @@
 
 This project focuses on the analysis of global safety and law and order indices using datasets such as Gallup’s Global Safety Report and the Law and Order Index 2023. The project aims to explore the relationship between perceived safety and the effectiveness of law and order across different countries. Through data analysis and visualizations, we identified trends, correlations, and outliers in global safety and law order scores.
 
-world_map on safety.png
+<img src="world_map on safety.png" alt="safety">
 
 Key Objectives
 
