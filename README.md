@@ -1,8 +1,69 @@
-# Overview
+# Global Safety and Law and Order Analysis
 
-This project focuses on analyzing global safety and law and order indices using datasets derived from various countries. The main objective is to explore the relationship between perceived safety and law order scores, identify patterns, and detect outliers. By comparing these indices, we aim to uncover insights into global safety perceptions and law enforcement effectiveness across different nations.
-To facilitate the analysis, we first preprocess the data by ranking countries based on their respective safety and law order scores. We then create interactive visualizations such as world maps and scatter plots to observe geographical trends and correlations between the two indices. Outlier analysis is also conducted to identify countries with unusual patterns—those with high safety but low law order scores and vice versa.
-Finally, a correlation analysis is performed to quantify the relationship between safety and law order indices, highlighting regions or countries that stand out. This project provides a comprehensive view of how safety and law order scores vary across the globe, enabling further research into the factors influencing these metrics.
-Dataset collected from: Gallup.com
-Background Information: A recent Gallup global safety survey has classified Kuwait as the safest country in the world for 2024 regarding individuals walking alone in the streets, with an impressive 99% of respondents reporting they feel safe. Singapore follows in second place with 94%, while Norway and Saudi Arabia both score 92%, reports Al-Seyassah daily.
-Kuwait also achieved the highest score on the Law and Order Index, receiving an impressive 98 out of 100, maintaining its position as one of the safest countries in the world since 2019. Additionally, the insurance company Hellosafe has released a “Travel Safety Index,” which rates countries on a scale of 0 to 100, where 0 indicates the safest countries and 100 the least safe, according to a report by Le Soir. This index is based on 35 criteria, including the occurrence of natural disasters, societal violence, involvement in armed conflicts (both internal and external), and health infrastructure.
+## Project Overview
+
+This project focuses on the analysis of global safety and law and order indices using datasets such as Gallup’s Global Safety Report and the Law and Order Index 2023. The project aims to explore the relationship between perceived safety and the effectiveness of law and order across different countries. Through data analysis and visualizations, we identified trends, correlations, and outliers in global safety and law order scores.
+
+Key Objectives
+
+	•	Analyze global safety and law order indices to rank countries based on their scores.
+	•	Visualize the geographical distribution of safety and law order using world maps and scatter plots.
+	•	Identify outliers, particularly countries with high perceived safety but low law order scores (and vice versa).
+	•	Conduct correlation analysis to understand the relationship between these two indices.
+
+Project Files
+
+	•	Data: Processed datasets of country-wise safety and law order scores (loaded within the code).
+	•	Jupyter Notebook: Includes data preprocessing, ranking, visualization, and analysis steps.
+	•	README.md: A summary of the project structure and objectives.
+	•	Interactive Visualizations: Generated visualizations such as world maps and scatter plots that allow for further exploration of the data.
+
+Project Steps
+
+	1.	Data Preprocessing:
+	•	Loaded and cleaned datasets containing country-level safety and law order scores.
+	•	Sorted and ranked countries based on their safety and law order values.
+	2.	Ranking Countries:
+	•	Countries were ranked based on the Perceived Safety and Law Order Index scores using a ranking system.
+	•	Outliers were identified, where countries deviated significantly between their safety and law order scores.
+	3.	Correlation Analysis:
+	•	Performed correlation analysis to assess the relationship between perceived safety and law and order indices.
+	4.	Interactive Visualizations:
+	•	Created choropleth maps to visualize the global distribution of safety and law order indices.
+	•	Developed scatter plots to highlight the correlation and outliers in the dataset.
+	5.	Outlier Analysis:
+	•	Identified countries with high safety but lower law order scores and those with low safety but higher law order scores for further investigation.
+
+Visualizations
+
+	•	World Maps: Two interactive world maps showing the geographical distribution of perceived safety and law order indices.
+	•	Scatter Plot: A scatter plot depicting the relationship between the safety and law order indices of each country.
+	•	Outlier Analysis: Focused on countries that deviated from expected correlations between safety and law order.
+
+Requirements
+
+To run the notebook, you’ll need the following dependencies:
+
+	•	pandas
+	•	plotly
+	•	numpy
+
+Install them using pip:
+
+pip install pandas plotly numpy
+
+Conclusion
+
+This project has successfully demonstrated the value of data-driven analysis in understanding global trends in safety and law and order. By identifying outliers and highlighting correlations, this analysis provides valuable insights that can assist in policy-making and international research efforts.
+
+Future Work
+
+	•	Further exploration of socio-political and economic factors influencing outliers in safety and law order.
+	•	Enhancing visualizations with additional interaction, such as historical trends.
+	•	Incorporating more granular data (e.g., city-level data) to capture regional differences within countries.
+
+Author:
+[Your Name]
+
+Date:
+October 2024
